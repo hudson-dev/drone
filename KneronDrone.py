@@ -1,5 +1,5 @@
 from utils.ExampleHelper import get_device_usb_speed_by_port_id
-from utils.ExamplePostProcess import post_process_tiny_yolo_v3
+from utils.ExamplePostProcess import post_process_yolo_v5
 from djitellopy import Tello
 
 import kp
@@ -29,11 +29,9 @@ class KneronDrone:
     PWD = os.path.dirname(os.path.abspath(__file__))
     sys.path.insert(1, os.path.join(PWD, '..'))
 
-    MODEL_FILE_PATH = os.path.join(PWD, 'res/models/KL520/tiny_yolo_v3/models_520.nef')
-    SCPU_FW_PATH = os.path.join(PWD, 'res/firmware/KL520/fw_scpu.bin')
-    NCPU_FW_PATH = os.path.join(PWD, 'res/firmware/KL520/fw_ncpu.bin')
+    MODEL_FILE_PATH = os.path.join(PWD, '/Users/hkim/development/Kneron/drone/res/models/KL720/YoloV5s_640_640_3/models_720.nef')
 
-    LOOP_TIME = 5
+    LOOP_TIME = 1
 
     def __init__(self, drone_run, use_controller):
         self.drone_run = drone_run
@@ -43,7 +41,7 @@ class KneronDrone:
     def init_kneron(self):
         global device_group, model_nef_descriptor, labels
 
-        # Checking to see if KL520 is running at high speed
+        # Checking to see if KL720 is running at high speed
         try:
             if kp.UsbSpeed.KP_USB_SPEED_HIGH != get_device_usb_speed_by_port_id(usb_port_id=usb_port_id):
                 print('\033[91m' + '[Warning] Device is not run at high speed.' + '\033[0m')
@@ -65,23 +63,13 @@ class KneronDrone:
         kp.core.set_timeout(device_group=device_group, milliseconds=5000)
         print(' - Success')
 
-        # Upload firmware to device
-        try:
-            print('[Upload Firmware]')
-            kp.core.load_firmware_from_file(device_group=device_group,
-                                            scpu_fw_path=SCPU_FW_PATH,
-                                            ncpu_fw_path=NCPU_FW_PATH)
-            print(' - Success')
-        except kp.ApiKPException as exception:
-            print('Error: upload firmware failed, error = \'{}\''.format(str(exception)))
-            exit(0)
-
         # Upload model to device
         try:
             print('[Upload Model]')
             print("MODEL_FILE_PATH: " + MODEL_FILE_PATH);
             
-            model_nef_descriptor = kp.core.load_model_from_file(device_group=device_group, file_path=MODEL_FILE_PATH)
+            model_nef_descriptor = kp.core.load_model_from_file(device_group=device_group, 
+                                                                file_path=MODEL_FILE_PATH)
             print(' - Success')
         except kp.ApiKPException as exception:
             print('Error: upload model failed, error = \'{}\''.format(str(exception)))
@@ -216,9 +204,12 @@ class KneronDrone:
             inf_node_output_list.append(inference_float_node_output)
 
         #Post-process the last raw output
-        yolo_result = post_process_tiny_yolo_v3(inference_float_node_output_list = inf_node_output_list,
-                                                hardware_preproc_info = generic_raw_result.header.hw_pre_proc_info_list[0],
-                                                thresh_value = 0.3)
+        yolo_result = post_process_yolo_v5(
+            inference_float_node_output_list = inf_node_output_list,
+            hardware_preproc_info = generic_raw_result.header.hw_pre_proc_info_list[0],
+            thresh_value = 0.3,
+            with_sigmoid=False
+        )
         
         print('[Result]')
         print(yolo_result)  
@@ -250,10 +241,3 @@ class KneronDrone:
                 lineType=cv2.LINE_AA)
             
         cv2.imshow(drone_window,img)
-
-prevArea = 1;
-def calculateDistance(xDist, x1, x2, y1, y2):
-    area = Math.abs((x1-x2)*(y1-y2))
-    dist =  xDist / (1-Math.sqrt(area/prevArea))
-    prevArea = area;
-    return dist;
