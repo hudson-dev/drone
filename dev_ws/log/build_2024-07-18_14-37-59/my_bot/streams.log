@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/hkim/development/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/dev_ws/build/my_bot -- -j4 -l4
+[0.074s] Invoked command in '/home/hkim/development/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/dev_ws/build/my_bot -- -j4 -l4
+[0.115s] Invoking command in '/home/hkim/development/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/dev_ws/build/my_bot
+[0.125s] -- Install configuration: ""
+[0.126s] -- Execute custom install script
+[0.126s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.127s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/description/drone.urdf
+[0.127s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.127s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.127s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.128s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.128s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.128s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.129s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.129s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.130s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.130s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.130s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.131s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.131s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.131s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.132s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.132s] -- Symlinking: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.145s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.145s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.146s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.146s] -- Up-to-date symlink: /home/hkim/development/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.150s] Invoked command in '/home/hkim/development/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/dev_ws/build/my_bot
