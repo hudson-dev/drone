@@ -1,0 +1,39 @@
+[0.036s] Invoking command in '/home/hkim/development/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/tello_description -- -j4 -l4
+[0.218s] [ 11%] Built target generate_urdf_6
+[0.287s] [ 22%] Built target generate_urdf_3
+[0.379s] [ 33%] Built target generate_urdf_8
+[0.458s] [ 44%] Built target generate_urdf_4
+[0.501s] [ 55%] Built target generate_urdf_5
+[0.612s] [ 66%] Built target generate_urdf_7
+[0.680s] [ 77%] Built target generate_urdf_2
+[0.719s] [ 88%] Built target generate_urdf_1
+[0.785s] [100%] Built target generate_urdf
+[0.809s] Invoked command in '/home/hkim/development/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/tello_description -- -j4 -l4
+[0.934s] Invoking command in '/home/hkim/development/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/tello_description
+[0.952s] -- Install configuration: ""
+[0.952s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf
+[0.953s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_8.urdf
+[0.953s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_3.urdf
+[0.953s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello.urdf
+[0.953s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_6.urdf
+[0.953s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_1.urdf
+[0.953s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_5.urdf
+[0.953s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_7.urdf
+[0.954s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_2.urdf
+[0.954s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_4.urdf
+[0.954s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description
+[0.954s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description
+[0.954s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.sh
+[0.954s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv
+[0.954s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/environment/path.sh
+[0.955s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/environment/path.dsv
+[0.955s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/local_setup.bash
+[0.955s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/local_setup.sh
+[0.955s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/local_setup.zsh
+[0.955s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/local_setup.dsv
+[0.956s] -- Installing: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/package.dsv
+[0.956s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/ament_index/resource_index/packages/tello_description
+[0.956s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake
+[0.956s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake
+[0.956s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/tello_description/share/tello_description/package.xml
+[0.967s] Invoked command in '/home/hkim/development/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/tello_description

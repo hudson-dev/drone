@@ -1,0 +1,66 @@
+[0.026s] Invoking command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam': AMENT_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/fiducial_vlam -- -j4 -l4
+[0.254s] [ 25%] Built target vmap_node
+[0.283s] [ 54%] Built target vloc_main
+[0.290s] [ 77%] Built target vmap_main
+[0.310s] [100%] Built target vloc_node
+[0.343s] Invoked command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam' returned '0': AMENT_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/fiducial_vlam -- -j4 -l4
+[0.419s] Invoking command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam': AMENT_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/fiducial_vlam
+[0.439s] -- Install configuration: ""
+[0.439s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/lib/libvloc_node.so
+[0.445s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/lib/libvmap_node.so
+[0.446s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/lib/fiducial_vlam/vloc_main
+[0.453s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/lib/fiducial_vlam/vmap_main
+[0.457s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cfg
+[0.457s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cfg/fiducial_marker_locations_basement.yaml
+[0.457s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cfg/Aruco Marker 6X6 250 IDs 01-12.pdf
+[0.457s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cfg/fiducial_marker_locations_office.yaml
+[0.457s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch
+[0.457s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/teleop_launch.py
+[0.457s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_xps_launch.py
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one_gazebo.py
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one.py
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_box_pattern.sh
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one.rviz
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_brix_launch.py
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/sim_one_marker_launch.py
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/launch_two_gazebo.py
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/sim_yz_plane_of_markers_launch.py
+[0.458s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_shared_launch.py
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_box_pattern_b.sh
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/map.hpp
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/fiducial_vlam
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/fiducial_vlam/fiducial_vlam.hpp
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/vmap_context.hpp
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/vloc_context.hpp
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/transform_with_covariance.hpp
+[0.459s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/convert_util.hpp
+[0.460s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/observation.hpp
+[0.460s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/fiducial_math.hpp
+[0.461s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/library_path.sh
+[0.461s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/library_path.dsv
+[0.461s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/ament_index/resource_index/package_run_dependencies/fiducial_vlam
+[0.462s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/ament_index/resource_index/parent_prefix_path/fiducial_vlam
+[0.462s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/ament_prefix_path.sh
+[0.462s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/ament_prefix_path.dsv
+[0.462s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/path.sh
+[0.463s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/path.dsv
+[0.463s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/local_setup.bash
+[0.463s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/local_setup.sh
+[0.463s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/local_setup.zsh
+[0.464s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/local_setup.dsv
+[0.464s] -- Installing: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/package.dsv
+[0.464s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/ament_index/resource_index/packages/fiducial_vlam
+[0.464s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/ament_index/resource_index/rclcpp_components/fiducial_vlam
+[0.464s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vloc_nodeExport.cmake
+[0.464s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vloc_nodeExport-noconfig.cmake
+[0.464s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vmap_nodeExport.cmake
+[0.464s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vmap_nodeExport-noconfig.cmake
+[0.465s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.465s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.465s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_targets-extras.cmake
+[0.465s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_libraries-extras.cmake
+[0.465s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/fiducial_vlamConfig.cmake
+[0.465s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/fiducial_vlamConfig-version.cmake
+[0.465s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/package.xml
+[0.492s] Invoked command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam' returned '0': AMENT_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/fiducial_vlam

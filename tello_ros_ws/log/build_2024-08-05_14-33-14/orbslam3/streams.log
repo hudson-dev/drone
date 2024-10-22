@@ -1,0 +1,105 @@
+[0.048s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[0.287s] [  8%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o[0m
+[0.307s] [ 16%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o[0m
+[0.323s] [ 25%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o[0m
+[0.333s] [ 33%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m
+[0.850s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[0.850s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[0.850s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[0.850s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[0.850s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[0.850s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[0.851s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp:7[m[K:
+[0.851s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[0.851s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[0.851s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.851s] compilation terminated.
+[0.862s] make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:63: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o] Error 1
+[0.862s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/stereo-inertial.dir/all] Error 2
+[0.863s] make[1]: *** Waiting for unfinished jobs....
+[0.883s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'rgbd'.  Stop.
+[0.884s] make[2]: *** Waiting for unfinished jobs....
+[0.934s] [ 41%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o[0m
+[0.937s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[0.937s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[0.937s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[0.938s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[0.938s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[0.938s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd-slam-node.hpp:18[m[K,
+[0.938s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd.cpp:7[m[K:
+[0.938s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[0.938s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[0.938s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.938s] compilation terminated.
+[0.965s] make[2]: *** [CMakeFiles/rgbd.dir/build.make:63: CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o] Error 1
+[0.973s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[0.973s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[0.973s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[0.973s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[0.973s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[0.974s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13[m[K,
+[0.974s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo.cpp:7[m[K:
+[0.981s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[0.981s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[0.981s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.982s] compilation terminated.
+[0.987s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'stereo'.  Stop.
+[0.987s] make[2]: *** Waiting for unfinished jobs....
+[0.987s] make[2]: *** [CMakeFiles/stereo.dir/build.make:63: CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o] Error 1
+[1.000s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'mono'.  Stop.
+[1.000s] make[2]: *** Waiting for unfinished jobs....
+[1.028s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o[0m
+[1.050s] [ 58%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o[0m
+[1.054s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[1.054s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[1.054s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[1.054s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[1.055s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[1.055s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[1.055s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/mono.cpp:7[m[K:
+[1.055s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[1.055s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[1.055s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.055s] compilation terminated.
+[1.064s] make[2]: *** [CMakeFiles/mono.dir/build.make:63: CMakeFiles/mono.dir/src/monocular/mono.cpp.o] Error 1
+[1.461s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[1.462s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[1.462s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[1.462s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[1.462s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[1.462s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[1.462s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[1.462s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[1.463s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[1.463s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.463s] compilation terminated.
+[1.470s] make[2]: *** [CMakeFiles/mono.dir/build.make:76: CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o] Error 1
+[1.470s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mono.dir/all] Error 2
+[1.496s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[1.496s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[1.496s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[1.496s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[1.496s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[1.496s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13[m[K,
+[1.497s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1[m[K:
+[1.497s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[1.498s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[1.498s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.499s] compilation terminated.
+[1.499s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[1.499s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[1.500s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[1.500s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[1.500s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[1.501s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd-slam-node.hpp:18[m[K,
+[1.502s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd-slam-node.cpp:1[m[K:
+[1.502s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[1.503s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[1.503s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.504s] compilation terminated.
+[1.504s] make[2]: *** [CMakeFiles/stereo.dir/build.make:76: CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o] Error 1
+[1.504s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/stereo.dir/all] Error 2
+[1.504s] make[2]: *** [CMakeFiles/rgbd.dir/build.make:76: CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o] Error 1
+[1.504s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rgbd.dir/all] Error 2
+[1.504s] make: *** [Makefile:141: all] Error 2
+[1.509s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4

@@ -1,0 +1,10 @@
+make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'stereo-inertial'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/stereo-inertial.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'rgbd'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rgbd.dir/all] Error 2
+make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'stereo'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/stereo.dir/all] Error 2
+make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'mono'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mono.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

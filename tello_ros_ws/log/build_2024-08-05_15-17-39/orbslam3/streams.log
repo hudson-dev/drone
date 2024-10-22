@@ -1,0 +1,12 @@
+[0.015s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[0.136s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'stereo-inertial'.  Stop.
+[0.137s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/stereo-inertial.dir/all] Error 2
+[0.138s] make[1]: *** Waiting for unfinished jobs....
+[0.138s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'rgbd'.  Stop.
+[0.138s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rgbd.dir/all] Error 2
+[0.138s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'stereo'.  Stop.
+[0.139s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/stereo.dir/all] Error 2
+[0.146s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'mono'.  Stop.
+[0.147s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mono.dir/all] Error 2
+[0.147s] make: *** [Makefile:141: all] Error 2
+[0.149s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4

@@ -1,0 +1,15 @@
+[0.085s] Invoking command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs -- -j4 -l4
+[0.274s] [  2%] Built target fiducial_vlam_msgs__cpp
+[0.356s] [ 12%] Built target fiducial_vlam_msgs__rosidl_generator_c
+[0.473s] [ 23%] Built target fiducial_vlam_msgs__rosidl_typesupport_cpp
+[0.530s] [ 34%] Built target fiducial_vlam_msgs__rosidl_typesupport_introspection_cpp
+[0.572s] [ 44%] Built target fiducial_vlam_msgs__rosidl_typesupport_fastrtps_cpp
+[0.615s] [ 55%] Built target fiducial_vlam_msgs__rosidl_typesupport_introspection_c
+[0.668s] [ 65%] Built target fiducial_vlam_msgs__rosidl_typesupport_c
+[0.714s] [ 76%] Built target fiducial_vlam_msgs__rosidl_typesupport_fastrtps_c
+[0.783s] [ 76%] Built target fiducial_vlam_msgs
+[0.849s] [ 78%] Built target fiducial_vlam_msgs__py
+[0.939s] [ 87%] Built target fiducial_vlam_msgs__python
+[1.027s] [ 91%] Built target fiducial_vlam_msgs__rosidl_typesupport_introspection_c__pyext
+[1.036s] [ 95%] Built target fiducial_vlam_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.042s] [100%] Built target fiducial_vlam_msgs__rosidl_typesupport_c__pyext

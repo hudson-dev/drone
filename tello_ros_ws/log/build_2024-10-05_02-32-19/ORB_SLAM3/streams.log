@@ -1,0 +1,28 @@
+[0.046s] Invoking command in '/home/hkim/development/tello_ros_ws/build/ORB_SLAM3': /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/ORB_SLAM3 -- -j4 -l4
+[0.366s] [ 29%] Built target g2o
+[0.574s] [ 55%] Built target ORB_SLAM3
+[0.685s] [ 57%] Built target stereo_inertial_tum_vi_old
+[0.718s] [ 59%] Built target mono_inertial_tum_vi_old
+[0.748s] [ 61%] Built target mono_tum_vi_old
+[0.786s] [ 62%] Built target stereo_inertial_euroc_old
+[0.836s] [ 64%] Built target mono_kitti_old
+[0.919s] [ 66%] Built target mono_tum_old
+[0.947s] [ 68%] Built target stereo_euroc_old
+[1.092s] [ 70%] Built target stereo_kitti_old
+[1.142s] [ 72%] Built target mono_euroc_old
+[1.143s] [ 74%] Built target rgbd_tum
+[1.160s] [ 76%] Built target stereo_inertial_euroc
+[1.250s] [ 78%] Built target mono_tum
+[1.273s] [ 80%] Built target mono_kitti
+[1.277s] [ 82%] Built target stereo_kitti
+[1.296s] [ 84%] Built target stereo_euroc
+[1.344s] [ 86%] Built target stereo_tum_vi
+[1.370s] [ 88%] Built target mono_euroc
+[1.393s] [ 90%] Built target mono_inertial_euroc
+[1.396s] [ 91%] Built target mono_tum_vi
+[1.447s] [ 92%] Built target mono_inertial_euroc_old
+[1.469s] [ 94%] Built target stereo_tum_vi_old
+[1.487s] [ 96%] Built target mono_inertial_tum_vi
+[1.504s] [ 98%] Built target rgbd_tum_old
+[1.530s] [100%] Built target stereo_inertial_tum_vi
+[1.563s] Invoked command in '/home/hkim/development/tello_ros_ws/build/ORB_SLAM3' returned '0': /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/ORB_SLAM3 -- -j4 -l4

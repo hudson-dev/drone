@@ -1,0 +1,5 @@
+Build type: Release
+CMake Error at Thirdparty/DBoW2/CMakeLists.txt:31 (message):
+  OpenCV > 2.4.3 not found.
+
+

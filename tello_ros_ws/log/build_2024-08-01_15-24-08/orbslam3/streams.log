@@ -1,0 +1,92 @@
+[0.029s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[0.219s] [35m[1mScanning dependencies of target stereo-inertial[0m
+[0.238s] [35m[1mScanning dependencies of target stereo[0m
+[0.258s] [35m[1mScanning dependencies of target mono[0m
+[0.269s] [35m[1mScanning dependencies of target rgbd[0m
+[0.727s] [  8%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o[0m
+[0.777s] [ 16%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o[0m
+[0.902s] [ 25%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o[0m
+[0.925s] [ 33%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m
+[2.959s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.959s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.959s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.959s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.959s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[2.959s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd-slam-node.hpp:18[m[K,
+[2.960s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd.cpp:7[m[K:
+[2.960s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:32:10:[m[K [01;31m[Kfatal error: [m[KGeometricCamera.h: No such file or directory
+[2.960s]    32 | #include [01;31m[K"GeometricCamera.h"[m[K
+[2.960s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.960s] compilation terminated.
+[2.975s] make[2]: *** [CMakeFiles/rgbd.dir/build.make:63: CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o] Error 1
+[2.975s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rgbd.dir/all] Error 2
+[2.975s] make[1]: *** Waiting for unfinished jobs....
+[3.028s] [ 41%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o[0m
+[3.415s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.415s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.415s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.415s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.415s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[3.415s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13[m[K,
+[3.415s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo.cpp:7[m[K:
+[3.416s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:32:10:[m[K [01;31m[Kfatal error: [m[KGeometricCamera.h: No such file or directory
+[3.416s]    32 | #include [01;31m[K"GeometricCamera.h"[m[K
+[3.416s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.416s] compilation terminated.
+[3.448s] make[2]: *** [CMakeFiles/stereo.dir/build.make:63: CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o] Error 1
+[3.448s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/stereo.dir/all] Error 2
+[3.491s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[4.676s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.676s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.677s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.678s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.680s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[4.681s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[4.682s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp:7[m[K:
+[4.683s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:32:10:[m[K [01;31m[Kfatal error: [m[KGeometricCamera.h: No such file or directory
+[4.684s]    32 | #include [01;31m[K"GeometricCamera.h"[m[K
+[4.686s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.687s] compilation terminated.
+[4.718s] make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:63: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o] Error 1
+[4.718s] make[2]: *** Waiting for unfinished jobs....
+[4.778s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.779s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.780s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.781s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.782s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[4.783s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[4.784s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.785s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:32:10:[m[K [01;31m[Kfatal error: [m[KGeometricCamera.h: No such file or directory
+[4.786s]    32 | #include [01;31m[K"GeometricCamera.h"[m[K
+[4.787s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.787s] compilation terminated.
+[4.805s] make[2]: *** [CMakeFiles/mono.dir/build.make:76: CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o] Error 1
+[4.805s] make[2]: *** Waiting for unfinished jobs....
+[4.913s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.913s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.913s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.913s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.913s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[4.913s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[4.913s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/mono.cpp:7[m[K:
+[4.914s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:32:10:[m[K [01;31m[Kfatal error: [m[KGeometricCamera.h: No such file or directory
+[4.914s]    32 | #include [01;31m[K"GeometricCamera.h"[m[K
+[4.914s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.914s] compilation terminated.
+[4.939s] make[2]: *** [CMakeFiles/mono.dir/build.make:63: CMakeFiles/mono.dir/src/monocular/mono.cpp.o] Error 1
+[4.940s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mono.dir/all] Error 2
+[6.475s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.476s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.476s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.476s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.477s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[6.477s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[6.478s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[6.478s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:32:10:[m[K [01;31m[Kfatal error: [m[KGeometricCamera.h: No such file or directory
+[6.479s]    32 | #include [01;31m[K"GeometricCamera.h"[m[K
+[6.479s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.480s] compilation terminated.
+[6.502s] make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:76: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o] Error 1
+[6.502s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/stereo-inertial.dir/all] Error 2
+[6.502s] make: *** [Makefile:141: all] Error 2
+[6.511s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4

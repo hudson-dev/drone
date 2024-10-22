@@ -1,0 +1,26 @@
+[ 29%] Built target g2o
+[ 55%] Built target ORB_SLAM3
+[ 57%] Built target stereo_inertial_tum_vi_old
+[ 59%] Built target mono_inertial_tum_vi_old
+[ 60%] Built target stereo_inertial_euroc_old
+[ 62%] Built target mono_tum_vi_old
+[ 64%] Built target mono_kitti_old
+[ 67%] Built target stereo_euroc_old
+[ 68%] Built target mono_tum_old
+[ 70%] Built target stereo_kitti_old
+[ 72%] Built target mono_euroc_old
+[ 74%] Built target rgbd_tum
+[ 76%] Built target stereo_inertial_euroc
+[ 78%] Built target mono_tum
+[ 80%] Built target stereo_kitti
+[ 82%] Built target mono_kitti
+[ 84%] Built target stereo_euroc
+[ 86%] Built target stereo_tum_vi
+[ 88%] Built target mono_euroc
+[ 89%] Built target mono_tum_vi
+[ 91%] Built target mono_inertial_euroc
+[ 92%] Built target mono_inertial_euroc_old
+[ 94%] Built target stereo_tum_vi_old
+[ 96%] Built target mono_inertial_tum_vi
+[ 98%] Built target rgbd_tum_old
+[100%] Built target stereo_inertial_tum_vi

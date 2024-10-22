@@ -1,0 +1,12 @@
+In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/LocalMapping.h:25[m[K,
+                 from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:29[m[K,
+                 from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+                 from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp:7[m[K:
+[01m[K/home/hkim/development/downloads/ORB_SLAM3/include/LoopClosing.h:34:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_seven_dof_expmap.h: No such file or directory
+   34 | #include [01;31m[K"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:63: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/stereo-inertial.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

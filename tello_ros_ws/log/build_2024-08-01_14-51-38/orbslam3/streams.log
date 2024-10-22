@@ -1,0 +1,148 @@
+[0.022s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/orbslam3_ros2 -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/install/orbslam3
+[0.119s] -- The C compiler identification is GNU 9.4.0
+[0.276s] -- The CXX compiler identification is GNU 9.4.0
+[0.283s] -- Check for working C compiler: /usr/bin/cc
+[0.404s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.405s] -- Detecting C compiler ABI info
+[0.573s] -- Detecting C compiler ABI info - done
+[0.602s] -- Detecting C compile features
+[0.602s] -- Detecting C compile features - done
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.737s] -- Detecting CXX compiler ABI info
+[0.889s] -- Detecting CXX compiler ABI info - done
+[0.914s] -- Detecting CXX compile features
+[0.915s] -- Detecting CXX compile features - done
+[0.925s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.987s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.987s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.516s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.712s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.874s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.943s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.430s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.451s] -- Looking for pthread.h
+[2.650s] -- Looking for pthread.h - found
+[2.650s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.859s] -- Looking for pthread_create in pthreads
+[3.024s] -- Looking for pthread_create in pthreads - not found
+[3.025s] -- Looking for pthread_create in pthread
+[3.281s] -- Looking for pthread_create in pthread - found
+[3.281s] -- Found Threads: TRUE  
+[3.852s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.814s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[4.989s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[5.137s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[5.173s] -- Found ORB_SLAM3: /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so  
+[5.708s] -- Configuring done
+[6.368s] -- Generating done
+[6.369s] -- Build files have been written to: /home/hkim/development/tello_ros_ws/build/orbslam3
+[6.460s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/orbslam3_ros2 -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/install/orbslam3
+[6.462s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[6.787s] [35m[1mScanning dependencies of target stereo-inertial[0m
+[6.790s] [35m[1mScanning dependencies of target stereo[0m
+[6.805s] [35m[1mScanning dependencies of target mono[0m
+[6.814s] [35m[1mScanning dependencies of target rgbd[0m
+[7.900s] [  8%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o[0m
+[7.914s] [ 16%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o[0m
+[7.988s] [ 25%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o[0m
+[7.990s] [ 33%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m
+[10.764s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:30[m[K,
+[10.765s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[10.765s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[10.765s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[10.765s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[10.765s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[10.765s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[10.765s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[10.766s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/mono.cpp:7[m[K:
+[10.766s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+[10.766s]    29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+[10.766s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.766s] compilation terminated.
+[10.793s] make[2]: *** [CMakeFiles/mono.dir/build.make:63: CMakeFiles/mono.dir/src/monocular/mono.cpp.o] Error 1
+[10.793s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mono.dir/all] Error 2
+[10.794s] make[1]: *** Waiting for unfinished jobs....
+[10.808s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:30[m[K,
+[10.808s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[10.808s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[10.809s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[10.809s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[10.809s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[10.809s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[10.809s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd-slam-node.hpp:18[m[K,
+[10.809s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd.cpp:7[m[K:
+[10.809s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+[10.809s]    29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+[10.809s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.820s] compilation terminated.
+[10.842s] make[2]: *** [CMakeFiles/rgbd.dir/build.make:63: CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o] Error 1
+[10.842s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rgbd.dir/all] Error 2
+[10.852s] [ 41%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[10.881s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o[0m
+[10.915s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:30[m[K,
+[10.916s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[10.916s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[10.917s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[10.917s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[10.917s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[10.917s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[10.921s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[10.922s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp:7[m[K:
+[10.922s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+[10.923s]    29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+[10.923s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.923s] compilation terminated.
+[10.923s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:30[m[K,
+[10.923s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[10.923s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[10.923s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[10.923s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[10.923s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[10.923s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[10.924s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13[m[K,
+[10.924s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo.cpp:7[m[K:
+[10.924s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+[10.924s]    29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+[10.924s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.924s] compilation terminated.
+[10.936s] make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:63: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o] Error 1
+[10.937s] make[2]: *** Waiting for unfinished jobs....
+[10.953s] make[2]: *** [CMakeFiles/stereo.dir/build.make:63: CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o] Error 1
+[10.954s] make[2]: *** Waiting for unfinished jobs....
+[12.379s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:30[m[K,
+[12.380s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[12.381s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[12.382s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[12.383s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[12.384s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[12.385s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[12.386s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13[m[K,
+[12.386s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1[m[K:
+[12.387s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+[12.388s]    29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+[12.389s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.390s] compilation terminated.
+[12.404s] make[2]: *** [CMakeFiles/stereo.dir/build.make:76: CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o] Error 1
+[12.404s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/stereo.dir/all] Error 2
+[12.771s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:30[m[K,
+[12.771s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[12.771s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[12.771s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[12.771s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[12.771s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[12.771s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[12.772s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[12.772s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[12.772s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/ImuTypes.h:29:10:[m[K [01;31m[Kfatal error: [m[Ksophus/se3.hpp: No such file or directory
+[12.772s]    29 | #include [01;31m[K<sophus/se3.hpp>[m[K
+[12.772s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.772s] compilation terminated.
+[12.772s] make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:76: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o] Error 1
+[12.772s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/stereo-inertial.dir/all] Error 2
+[12.773s] make: *** [Makefile:141: all] Error 2
+[12.773s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4

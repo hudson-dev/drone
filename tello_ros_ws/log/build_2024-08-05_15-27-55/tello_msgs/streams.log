@@ -1,0 +1,15 @@
+[0.049s] Invoking command in '/home/hkim/development/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/tello_msgs -- -j4 -l4
+[0.159s] [  2%] Built target tello_msgs__cpp
+[0.180s] [ 12%] Built target tello_msgs__rosidl_generator_c
+[0.230s] [ 23%] Built target tello_msgs__rosidl_typesupport_cpp
+[0.256s] [ 34%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp
+[0.304s] [ 44%] Built target tello_msgs__rosidl_typesupport_introspection_cpp
+[0.373s] [ 55%] Built target tello_msgs__rosidl_typesupport_introspection_c
+[0.377s] [ 65%] Built target tello_msgs__rosidl_typesupport_c
+[0.462s] [ 76%] Built target tello_msgs__rosidl_typesupport_fastrtps_c
+[0.494s] [ 76%] Built target tello_msgs
+[0.536s] [ 78%] Built target tello_msgs__py
+[0.588s] [ 87%] Built target tello_msgs__python
+[0.656s] [ 91%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.681s] [ 95%] Built target tello_msgs__rosidl_typesupport_introspection_c__pyext
+[0.685s] [100%] Built target tello_msgs__rosidl_typesupport_c__pyext

@@ -1,0 +1,6 @@
+[0.143s] Invoking command in '/home/hkim/development/tello_ros_ws/build/tello_driver': AMENT_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/tello_msgs:/home/hkim/development/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/tello_msgs:/home/hkim/development/tello_ros_ws/install/ros2_shared:/opt/ros/foxy LD_LIBRARY_PATH=/home/hkim/development/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hkim/development/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/tello_driver -- -j4 -l4
+[0.346s] [  9%] Built target tello_emulator
+[0.423s] [ 22%] Built target tello_joy_main
+[0.497s] [ 54%] Built target tello_driver_node
+[0.553s] [ 63%] Built target tello_joy_node
+[0.596s] [100%] Built target tello_driver_main

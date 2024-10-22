@@ -1,0 +1,24 @@
+[0.050s] Invoking command in '/home/hkim/development/tello_ros_ws/build/ros2_orbslam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/ros2-ORB_SLAM2 -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/install/ros2_orbslam
+[0.081s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.126s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.613s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.769s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.170s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.172s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.484s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.797s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.873s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.911s] CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+[1.912s]   Could NOT find ORB_SLAM2 (missing: ORB_SLAM2_LIBRARY DBoW2_LIBRARY)
+[1.912s] Call Stack (most recent call first):
+[1.912s]   /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+[1.912s]   CMakeModules/FindORB_SLAM2.cmake:44 (find_package_handle_standard_args)
+[1.912s]   CMakeLists.txt:21 (find_package)
+[1.912s] 
+[1.912s] 
+[1.914s] -- Configuring incomplete, errors occurred!
+[1.915s] See also "/home/hkim/development/tello_ros_ws/build/ros2_orbslam/CMakeFiles/CMakeOutput.log".
+[1.915s] See also "/home/hkim/development/tello_ros_ws/build/ros2_orbslam/CMakeFiles/CMakeError.log".
+[1.939s] Invoked command in '/home/hkim/development/tello_ros_ws/build/ros2_orbslam' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/ros2-ORB_SLAM2 -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/install/ros2_orbslam

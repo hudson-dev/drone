@@ -1,0 +1,62 @@
+[ 25%] Built target vmap_node
+[ 54%] Built target vloc_main
+[ 77%] Built target vmap_main
+[100%] Built target vloc_node
+-- Install configuration: ""
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/lib/libvloc_node.so
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/lib/libvmap_node.so
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/lib/fiducial_vlam/vloc_main
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/lib/fiducial_vlam/vmap_main
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cfg
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cfg/fiducial_marker_locations_basement.yaml
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cfg/Aruco Marker 6X6 250 IDs 01-12.pdf
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cfg/fiducial_marker_locations_office.yaml
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/teleop_launch.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_xps_launch.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one_gazebo.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_box_pattern.sh
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one.rviz
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_brix_launch.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/sim_one_marker_launch.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/launch_two_gazebo.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/sim_yz_plane_of_markers_launch.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_shared_launch.py
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/launch/pair_box_pattern_b.sh
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/map.hpp
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/fiducial_vlam
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/fiducial_vlam/fiducial_vlam.hpp
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/vmap_context.hpp
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/vloc_context.hpp
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/transform_with_covariance.hpp
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/convert_util.hpp
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/observation.hpp
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/include/fiducial_math.hpp
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/library_path.sh
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/library_path.dsv
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/ament_index/resource_index/package_run_dependencies/fiducial_vlam
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/ament_index/resource_index/parent_prefix_path/fiducial_vlam
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/path.sh
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/environment/path.dsv
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/local_setup.bash
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/local_setup.sh
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/local_setup.zsh
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/local_setup.dsv
+-- Installing: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/package.dsv
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/ament_index/resource_index/packages/fiducial_vlam
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/ament_index/resource_index/rclcpp_components/fiducial_vlam
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vloc_nodeExport.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vloc_nodeExport-noconfig.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vmap_nodeExport.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vmap_nodeExport-noconfig.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/fiducial_vlamConfig.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/cmake/fiducial_vlamConfig-version.cmake
+-- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam/share/fiducial_vlam/package.xml

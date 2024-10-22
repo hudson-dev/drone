@@ -1,0 +1,3 @@
+Invoking command in '/home/hkim/development/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/tello_msgs -- -j4 -l4
+Invoked command in '/home/hkim/development/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/tello_msgs -- -j4 -l4
+Invoking command in '/home/hkim/development/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/tello_msgs

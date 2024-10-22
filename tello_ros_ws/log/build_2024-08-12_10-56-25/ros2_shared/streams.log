@@ -1,0 +1,28 @@
+[0.148s] Invoking command in '/home/hkim/development/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/ros2_shared -- -j4 -l4
+[0.536s] Invoked command in '/home/hkim/development/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/ros2_shared -- -j4 -l4
+[1.021s] Invoking command in '/home/hkim/development/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/ros2_shared
+[1.096s] -- Install configuration: ""
+[1.100s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/include
+[1.100s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/include/ros2_shared
+[1.101s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[1.104s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[1.105s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[1.106s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[1.116s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[1.116s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[1.116s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[1.117s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[1.117s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[1.117s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[1.118s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[1.118s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[1.118s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[1.119s] -- Installing: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[1.142s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[1.146s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_shared_targetsExport.cmake
+[1.147s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_targets-extras.cmake
+[1.147s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.147s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[1.148s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[1.148s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.xml
+[1.168s] Invoked command in '/home/hkim/development/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/ros2_shared

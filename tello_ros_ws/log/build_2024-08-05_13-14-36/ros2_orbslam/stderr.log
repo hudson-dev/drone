@@ -1,0 +1,8 @@
+CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+  Could NOT find ORB_SLAM2 (missing: ORB_SLAM2_LIBRARY DBoW2_LIBRARY)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+  CMakeModules/FindORB_SLAM2.cmake:44 (find_package_handle_standard_args)
+  CMakeLists.txt:21 (find_package)
+
+

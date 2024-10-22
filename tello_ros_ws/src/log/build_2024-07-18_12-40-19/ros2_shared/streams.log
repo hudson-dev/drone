@@ -1,0 +1,67 @@
+[0.040s] Invoking command in '/home/hkim/development/tello_ros_ws/src/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/src/install/ros2_shared
+[0.151s] -- The C compiler identification is GNU 9.4.0
+[0.258s] -- The CXX compiler identification is GNU 9.4.0
+[0.267s] -- Check for working C compiler: /usr/bin/cc
+[0.389s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.389s] -- Detecting C compiler ABI info
+[0.504s] -- Detecting C compiler ABI info - done
+[0.529s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.535s] -- Check for working CXX compiler: /usr/bin/c++
+[0.668s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.671s] -- Detecting CXX compiler ABI info
+[0.804s] -- Detecting CXX compiler ABI info - done
+[0.831s] -- Detecting CXX compile features
+[0.834s] -- Detecting CXX compile features - done
+[0.836s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.888s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.889s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.284s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.410s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.677s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.057s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.057s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.059s] -- Looking for pthread.h
+[2.171s] -- Looking for pthread.h - found
+[2.172s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.260s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.261s] -- Looking for pthread_create in pthreads
+[2.355s] -- Looking for pthread_create in pthreads - not found
+[2.355s] -- Looking for pthread_create in pthread
+[2.453s] -- Looking for pthread_create in pthread - found
+[2.454s] -- Found Threads: TRUE  
+[2.750s] -- Configuring done
+[2.753s] -- Generating done
+[2.754s] -- Build files have been written to: /home/hkim/development/tello_ros_ws/src/build/ros2_shared
+[2.762s] Invoked command in '/home/hkim/development/tello_ros_ws/src/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/src/install/ros2_shared
+[2.765s] Invoking command in '/home/hkim/development/tello_ros_ws/src/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/src/build/ros2_shared -- -j4 -l4
+[2.825s] Invoked command in '/home/hkim/development/tello_ros_ws/src/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/src/build/ros2_shared -- -j4 -l4
+[2.863s] Invoking command in '/home/hkim/development/tello_ros_ws/src/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/src/build/ros2_shared
+[2.875s] -- Install configuration: ""
+[2.876s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/include
+[2.876s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/include/ros2_shared
+[2.876s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[2.876s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[2.877s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[2.877s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[2.877s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[2.878s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[2.878s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[2.878s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/environment/path.sh
+[2.878s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[2.879s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/local_setup.bash
+[2.879s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/local_setup.sh
+[2.879s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[2.879s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[2.879s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/package.dsv
+[2.880s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[2.880s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake/ros2_shared_targetsExport.cmake
+[2.880s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_targets-extras.cmake
+[2.881s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.881s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[2.881s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[2.881s] -- Installing: /home/hkim/development/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/package.xml
+[2.885s] Invoked command in '/home/hkim/development/tello_ros_ws/src/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/src/build/ros2_shared

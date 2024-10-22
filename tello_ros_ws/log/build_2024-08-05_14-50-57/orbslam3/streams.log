@@ -1,0 +1,18 @@
+[0.077s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[0.262s] [  8%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o[0m
+[1.051s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:26[m[K,
+[1.051s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[1.051s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[1.051s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[1.052s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[1.052s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[1.052s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[1.052s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp:7[m[K:
+[1.052s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/ORBVocabulary.h:23:9:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/FORB.h: No such file or directory
+[1.052s]    23 | #include[01;31m[K"Thirdparty/DBoW2/DBoW2/FORB.h"[m[K
+[1.052s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.052s] compilation terminated.
+[1.058s] make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:63: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o] Error 1
+[1.059s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/stereo-inertial.dir/all] Error 2
+[1.059s] make: *** [Makefile:141: all] Error 2
+[1.082s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4

@@ -1,0 +1,75 @@
+[0.022s] Invoking command in '/home/hkim/development/tello_ros_ws/build/tello_gazebo': CMAKE_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/tello_msgs:/home/hkim/development/tello_ros_ws/install/tello_driver:/home/hkim/development/tello_ros_ws/install/tello_description:/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello-ros2/workspace/src/install/tello_msg:/home/hkim/development/tello-ros2/workspace/src/install/tello_control:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy LD_LIBRARY_PATH=/home/hkim/development/tello_ros_ws/install/tello_msgs/lib:/home/hkim/development/tello_ros_ws/install/tello_driver/lib:/home/hkim/development/tello-ros2/workspace/src/install/tello_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/tello_ros/tello_gazebo -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/install/tello_gazebo
+[0.040s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.087s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.467s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.503s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.505s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.510s] -- Searching for dependencies of ignition-math6
+[0.511s] -- Looking for OGRE...
+[0.517s] -- Found Ogre Ghadamon (1.9.0)
+[0.518s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.528s] -- Looking for OGRE_Paging...
+[0.529s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.529s] -- Looking for OGRE_Terrain...
+[0.529s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.529s] -- Looking for OGRE_Property...
+[0.529s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.529s] -- Looking for OGRE_RTShaderSystem...
+[0.529s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.529s] -- Looking for OGRE_Volume...
+[0.529s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.529s] -- Looking for OGRE_Overlay...
+[0.530s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.696s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.696s] -- Looking for ignition-transport8 -- found version 8.5.0
+[0.697s] -- Searching for dependencies of ignition-transport8
+[0.728s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.733s] -- Checking for module 'libzmq >= 4'
+[0.750s] --   Found libzmq , version 4.3.2
+[0.803s] -- Checking for module 'uuid'
+[0.820s] --   Found uuid, version 2.34.0
+[0.862s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.863s] -- Searching for dependencies of ignition-msgs5
+[0.885s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.886s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.891s] -- Checking for module 'tinyxml2'
+[0.909s] --   Found tinyxml2, version 6.2.0
+[0.952s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.953s] -- Looking for ignition-common3 -- found version 3.17.0
+[0.953s] -- Searching for dependencies of ignition-common3
+[0.953s] -- Looking for dlfcn.h - found
+[0.953s] -- Looking for libdl - found
+[0.964s] -- Searching for <ignition-common3> component [graphics]
+[0.965s] -- Looking for ignition-common3-graphics -- found version 3.17.0
+[0.965s] -- Searching for dependencies of ignition-common3-graphics
+[0.966s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.967s] -- Looking for ignition-fuel_tools4 -- found version 4.9.1
+[0.967s] -- Searching for dependencies of ignition-fuel_tools4
+[0.999s] -- Checking for module 'jsoncpp'
+[1.017s] --   Found jsoncpp, version 1.7.4
+[1.067s] -- Checking for module 'libzip'
+[1.086s] --   Found libzip, version 1.5.1
+[1.130s] -- Looking for ignition-common3 -- found version 3.17.0
+[1.130s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.131s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.143s] CMake Error at CMakeLists.txt:28 (find_package):
+[1.144s]   By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project
+[1.144s]   has asked CMake to find a package configuration file provided by
+[1.144s]   "gazebo_dev", but CMake did not find one.
+[1.144s] 
+[1.144s]   Could not find a package configuration file provided by "gazebo_dev" with
+[1.144s]   any of the following names:
+[1.144s] 
+[1.144s]     gazebo_devConfig.cmake
+[1.144s]     gazebo_dev-config.cmake
+[1.144s] 
+[1.145s]   Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set
+[1.145s]   "gazebo_dev_DIR" to a directory containing one of the above files.  If
+[1.145s]   "gazebo_dev" provides a separate development package or SDK, be sure it has
+[1.145s]   been installed.
+[1.145s] 
+[1.145s] 
+[1.145s] -- Configuring incomplete, errors occurred!
+[1.145s] See also "/home/hkim/development/tello_ros_ws/build/tello_gazebo/CMakeFiles/CMakeOutput.log".
+[1.146s] See also "/home/hkim/development/tello_ros_ws/build/tello_gazebo/CMakeFiles/CMakeError.log".
+[1.152s] Invoked command in '/home/hkim/development/tello_ros_ws/build/tello_gazebo' returned '1': CMAKE_PREFIX_PATH=/home/hkim/development/tello_ros_ws/install/tello_msgs:/home/hkim/development/tello_ros_ws/install/tello_driver:/home/hkim/development/tello_ros_ws/install/tello_description:/home/hkim/development/tello_ros_ws/install/ros2_shared:/home/hkim/development/tello-ros2/workspace/src/install/tello_msg:/home/hkim/development/tello-ros2/workspace/src/install/tello_control:/home/hkim/development/tello-ros2/workspace/src/install/tello:/opt/ros/foxy LD_LIBRARY_PATH=/home/hkim/development/tello_ros_ws/install/tello_msgs/lib:/home/hkim/development/tello_ros_ws/install/tello_driver/lib:/home/hkim/development/tello-ros2/workspace/src/install/tello_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/tello_ros/tello_gazebo -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/install/tello_gazebo

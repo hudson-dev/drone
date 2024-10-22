@@ -1,0 +1,10 @@
+[0.033s] Invoking command in '/home/hkim/development/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/tello_description -- -j4 -l4
+[0.149s] [ 11%] Built target generate_urdf
+[0.149s] [ 22%] Built target generate_urdf_6
+[0.184s] [ 33%] Built target generate_urdf_3
+[0.194s] [ 44%] Built target generate_urdf_8
+[0.228s] [ 55%] Built target generate_urdf_4
+[0.228s] [ 66%] Built target generate_urdf_5
+[0.280s] [ 77%] Built target generate_urdf_2
+[0.297s] [ 88%] Built target generate_urdf_7
+[0.326s] [100%] Built target generate_urdf_1

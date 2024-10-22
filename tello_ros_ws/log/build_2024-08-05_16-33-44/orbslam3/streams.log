@@ -1,0 +1,29 @@
+[0.058s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[0.397s] [ 25%] Built target mono
+[0.402s] [ 50%] Built target rgbd
+[0.423s] [ 75%] Built target stereo-inertial
+[0.450s] [100%] Built target stereo
+[0.476s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[0.692s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/orbslam3
+[0.705s] -- Install configuration: ""
+[0.708s] -- Execute custom install script
+[0.709s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/lib/orbslam3/mono
+[0.712s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/lib/orbslam3/rgbd
+[0.714s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/lib/orbslam3/stereo
+[0.715s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+[0.716s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[0.717s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[0.718s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+[0.720s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+[0.720s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/environment/path.sh
+[0.723s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/environment/path.dsv
+[0.725s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/local_setup.bash
+[0.725s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/local_setup.sh
+[0.725s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/local_setup.zsh
+[0.725s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/local_setup.dsv
+[0.728s] -- Symlinking: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/package.dsv
+[0.742s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+[0.745s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+[0.758s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+[0.758s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/package.xml
+[0.758s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/orbslam3

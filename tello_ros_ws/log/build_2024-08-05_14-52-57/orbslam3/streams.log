@@ -1,0 +1,106 @@
+[0.087s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[0.287s] [35m[1mScanning dependencies of target stereo-inertial[0m
+[0.329s] [35m[1mScanning dependencies of target rgbd[0m
+[0.369s] [35m[1mScanning dependencies of target stereo[0m
+[0.370s] [35m[1mScanning dependencies of target mono[0m
+[0.901s] [  8%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o[0m
+[0.977s] [ 16%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o[0m
+[0.999s] [ 25%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m
+[1.006s] [ 33%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o[0m
+[3.671s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.671s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.671s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.672s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.672s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.672s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.673s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[3.673s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.674s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/mono.cpp:7[m[K:
+[3.674s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Converter.h:26:9:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_six_dof_expmap.h: No such file or directory
+[3.676s]    26 | #include[01;31m[K"Thirdparty/g2o/g2o/types/types_six_dof_expmap.h"[m[K
+[3.676s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.676s] compilation terminated.
+[3.705s] make[2]: *** [CMakeFiles/mono.dir/build.make:63: CMakeFiles/mono.dir/src/monocular/mono.cpp.o] Error 1
+[3.705s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mono.dir/all] Error 2
+[3.705s] make[1]: *** Waiting for unfinished jobs....
+[3.754s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'stereo-inertial'.  Stop.
+[3.754s] make[2]: *** Waiting for unfinished jobs....
+[3.765s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.766s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.766s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.766s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.766s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.766s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.767s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[3.767s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd-slam-node.hpp:18[m[K,
+[3.767s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/rgbd/rgbd.cpp:7[m[K:
+[3.767s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Converter.h:26:9:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_six_dof_expmap.h: No such file or directory
+[3.767s]    26 | #include[01;31m[K"Thirdparty/g2o/g2o/types/types_six_dof_expmap.h"[m[K
+[3.768s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.768s] compilation terminated.
+[3.791s] [ 41%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[3.794s] make[2]: *** [CMakeFiles/rgbd.dir/build.make:63: CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o] Error 1
+[3.794s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rgbd.dir/all] Error 2
+[3.831s] make[2]: *** No rule to make target '/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so', needed by 'stereo'.  Stop.
+[3.837s] make[2]: *** Waiting for unfinished jobs....
+[3.860s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o[0m
+[3.941s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.941s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.941s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.941s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.942s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.942s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.942s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[3.942s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[3.942s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp:7[m[K:
+[3.942s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Converter.h:26:9:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_six_dof_expmap.h: No such file or directory
+[3.942s]    26 | #include[01;31m[K"Thirdparty/g2o/g2o/types/types_six_dof_expmap.h"[m[K
+[3.942s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.943s] compilation terminated.
+[3.959s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.959s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.960s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.960s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.960s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.960s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.960s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[3.960s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13[m[K,
+[3.961s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo.cpp:7[m[K:
+[3.961s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Converter.h:26:9:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_six_dof_expmap.h: No such file or directory
+[3.961s]    26 | #include[01;31m[K"Thirdparty/g2o/g2o/types/types_six_dof_expmap.h"[m[K
+[3.961s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.961s] compilation terminated.
+[3.970s] make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:63: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o] Error 1
+[3.985s] make[2]: *** [CMakeFiles/stereo.dir/build.make:63: CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o] Error 1
+[5.705s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.705s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.706s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.706s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.706s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.706s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.706s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[5.707s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[5.707s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[5.707s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Converter.h:26:9:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_six_dof_expmap.h: No such file or directory
+[5.707s]    26 | #include[01;31m[K"Thirdparty/g2o/g2o/types/types_six_dof_expmap.h"[m[K
+[5.708s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.708s] compilation terminated.
+[5.727s] make[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:76: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o] Error 1
+[5.727s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/stereo-inertial.dir/all] Error 2
+[5.774s] In file included from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.774s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.775s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.781s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.782s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.782s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.782s]                  from [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/System.h:31[m[K,
+[5.783s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13[m[K,
+[5.783s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1[m[K:
+[5.783s] [01m[K/home/hkim/development/downloads/ORB_SLAM3/include/Converter.h:26:9:[m[K [01;31m[Kfatal error: [m[KThirdparty/g2o/g2o/types/types_six_dof_expmap.h: No such file or directory
+[5.783s]    26 | #include[01;31m[K"Thirdparty/g2o/g2o/types/types_six_dof_expmap.h"[m[K
+[5.784s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.784s] compilation terminated.
+[5.785s] make[2]: *** [CMakeFiles/stereo.dir/build.make:76: CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o] Error 1
+[5.785s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/stereo.dir/all] Error 2
+[5.785s] make: *** [Makefile:141: all] Error 2
+[5.797s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4

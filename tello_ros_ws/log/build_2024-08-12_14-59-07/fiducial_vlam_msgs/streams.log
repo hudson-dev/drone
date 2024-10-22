@@ -1,0 +1,155 @@
+[0.164s] Invoking command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs -- -j4 -l4
+[0.613s] [  2%] Built target fiducial_vlam_msgs__cpp
+[0.858s] [ 12%] Built target fiducial_vlam_msgs__rosidl_generator_c
+[1.205s] [ 23%] Built target fiducial_vlam_msgs__rosidl_typesupport_introspection_cpp
+[1.448s] [ 34%] Built target fiducial_vlam_msgs__rosidl_typesupport_introspection_c
+[1.674s] [ 44%] Built target fiducial_vlam_msgs__rosidl_typesupport_c
+[1.901s] [ 55%] Built target fiducial_vlam_msgs__rosidl_typesupport_fastrtps_cpp
+[2.149s] [ 65%] Built target fiducial_vlam_msgs__rosidl_typesupport_cpp
+[2.483s] [ 76%] Built target fiducial_vlam_msgs__rosidl_typesupport_fastrtps_c
+[2.786s] [ 76%] Built target fiducial_vlam_msgs
+[2.997s] [ 78%] Built target fiducial_vlam_msgs__py
+[3.307s] [ 87%] Built target fiducial_vlam_msgs__python
+[3.537s] [ 91%] Built target fiducial_vlam_msgs__rosidl_typesupport_c__pyext
+[3.783s] [ 95%] Built target fiducial_vlam_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.029s] [100%] Built target fiducial_vlam_msgs__rosidl_typesupport_introspection_c__pyext
+[4.115s] Invoked command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs -- -j4 -l4
+[5.049s] Invoking command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs
+[5.146s] -- Install configuration: ""
+[5.147s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/ament_index/resource_index/rosidl_interfaces/fiducial_vlam_msgs
+[5.148s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs
+[5.148s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg
+[5.149s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail
+[5.149s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__functions.c
+[5.149s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__struct.h
+[5.150s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__functions.h
+[5.150s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__type_support.h
+[5.150s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__type_support.h
+[5.151s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__functions.h
+[5.151s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__struct.h
+[5.151s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__functions.c
+[5.151s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__type_support.h
+[5.157s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__struct.h
+[5.157s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__functions.h
+[5.157s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__functions.c
+[5.157s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/observation.h
+[5.158s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/observations.h
+[5.158s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.158s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/map.h
+[5.161s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/environment/library_path.sh
+[5.161s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/environment/library_path.dsv
+[5.197s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/libfiducial_vlam_msgs__rosidl_generator_c.so
+[5.197s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs
+[5.197s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg
+[5.197s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail
+[5.197s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__rosidl_typesupport_fastrtps_c.h
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__rosidl_typesupport_fastrtps_c.h
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__rosidl_typesupport_fastrtps_c.h
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/libfiducial_vlam_msgs__rosidl_typesupport_fastrtps_c.so
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/dds_fastrtps
+[5.198s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__rosidl_typesupport_fastrtps_cpp.hpp
+[5.213s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__rosidl_typesupport_fastrtps_cpp.hpp
+[5.213s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__rosidl_typesupport_fastrtps_cpp.hpp
+[5.214s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.214s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/libfiducial_vlam_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.214s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs
+[5.215s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg
+[5.215s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail
+[5.229s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__type_support.c
+[5.230s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__type_support.c
+[5.236s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__rosidl_typesupport_introspection_c.h
+[5.239s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__rosidl_typesupport_introspection_c.h
+[5.240s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__type_support.c
+[5.240s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__rosidl_typesupport_introspection_c.h
+[5.240s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.241s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/libfiducial_vlam_msgs__rosidl_typesupport_introspection_c.so
+[5.241s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/libfiducial_vlam_msgs__rosidl_typesupport_c.so
+[5.242s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs
+[5.242s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg
+[5.242s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/map.hpp
+[5.243s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.243s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail
+[5.243s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__struct.hpp
+[5.260s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__traits.hpp
+[5.261s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__struct.hpp
+[5.262s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__builder.hpp
+[5.262s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__type_support.hpp
+[5.264s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__struct.hpp
+[5.265s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__builder.hpp
+[5.265s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__traits.hpp
+[5.265s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__type_support.hpp
+[5.266s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__type_support.hpp
+[5.266s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__builder.hpp
+[5.266s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__traits.hpp
+[5.266s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/observations.hpp
+[5.266s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/observation.hpp
+[5.267s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs
+[5.267s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg
+[5.267s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail
+[5.267s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__type_support.cpp
+[5.267s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__rosidl_typesupport_introspection_cpp.hpp
+[5.267s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__type_support.cpp
+[5.267s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observation__rosidl_typesupport_introspection_cpp.hpp
+[5.267s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/observations__type_support.cpp
+[5.282s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/include/fiducial_vlam_msgs/msg/detail/map__rosidl_typesupport_introspection_cpp.hpp
+[5.283s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/libfiducial_vlam_msgs__rosidl_typesupport_introspection_cpp.so
+[5.283s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/libfiducial_vlam_msgs__rosidl_typesupport_cpp.so
+[5.284s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/environment/pythonpath.sh
+[5.284s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/environment/pythonpath.dsv
+[5.284s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/__init__.py
+[5.710s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/msg
+[5.716s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/msg/_observation.py
+[5.717s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/msg/_observations.py
+[5.718s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/msg/_observations_s.c
+[5.724s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/msg/_map_s.c
+[5.724s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/msg/_observation_s.c
+[5.724s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/msg/__init__.py
+[5.724s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/msg/_map.py
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/fiducial_vlam_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/fiducial_vlam_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages/fiducial_vlam_msgs/fiducial_vlam_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/lib/libfiducial_vlam_msgs__python.so
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/msg/Map.idl
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/msg/Observation.idl
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/msg/Observations.idl
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/msg/Map.msg
+[5.725s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/msg/Observation.msg
+[5.726s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/msg/Observations.msg
+[5.726s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/ament_index/resource_index/package_run_dependencies/fiducial_vlam_msgs
+[5.726s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/ament_index/resource_index/parent_prefix_path/fiducial_vlam_msgs
+[5.726s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/environment/ament_prefix_path.sh
+[5.726s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/environment/ament_prefix_path.dsv
+[5.726s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/environment/path.sh
+[5.726s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/environment/path.dsv
+[5.726s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/local_setup.bash
+[5.727s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/local_setup.sh
+[5.727s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/local_setup.zsh
+[5.727s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/local_setup.dsv
+[5.727s] -- Installing: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/package.dsv
+[5.742s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/ament_index/resource_index/packages/fiducial_vlam_msgs
+[5.742s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_generator_cExport.cmake
+[5.742s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.742s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.743s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.743s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_typesupport_cExport.cmake
+[5.743s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.743s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_generator_cppExport.cmake
+[5.753s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.754s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.754s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_typesupport_cppExport.cmake
+[5.755s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.755s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/rosidl_cmake-extras.cmake
+[5.755s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.755s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.764s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.764s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.764s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.766s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.767s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgsConfig.cmake
+[5.781s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake/fiducial_vlam_msgsConfig-version.cmake
+[5.785s] -- Up-to-date: /home/hkim/development/tello_ros_ws/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/package.xml
+[5.817s] Invoked command in '/home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/fiducial_vlam_msgs

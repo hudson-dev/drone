@@ -1,0 +1,687 @@
+[0.080s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[0.724s] [ 25%] Built target stereo-inertial
+[0.907s] [35m[1mScanning dependencies of target mono[0m
+[1.548s] [ 33%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o[0m
+[27.492s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:30[m[K,
+[27.493s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[27.493s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[27.493s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[27.494s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[27.494s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[27.494s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[27.502s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[27.503s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[27.503s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[27.503s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[27.503s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[27.503s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[28.085s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[28.086s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[28.087s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[28.087s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[28.087s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.087s]    62 | Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[28.088s]       |                                                              [01;35m[K^~~~~~~~~~[m[K
+[28.088s] 
+[28.089s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[28.089s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[28.089s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[28.090s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[28.090s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[28.095s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[28.096s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[28.096s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[28.096s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[28.097s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[28.097s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[28.097s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[28.098s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[28.098s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[28.098s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.099s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[28.107s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[28.245s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[28.245s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[28.245s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[28.246s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[28.246s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[28.246s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[28.247s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[28.247s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[28.247s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[28.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[28.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[28.249s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.249s]    59 | :Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[28.249s]       |                                                              [01;35m[K^~~~~~~~~~[m[K
+[28.249s] 
+[28.250s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[28.250s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[28.250s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[28.250s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[28.250s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[28.250s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[28.251s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[28.251s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[28.251s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[28.251s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[28.251s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[28.251s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[28.252s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[28.252s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[28.252s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.252s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[28.253s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[28.253s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[28.253s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[28.253s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[28.253s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[28.254s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[28.254s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[28.254s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[28.254s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[28.254s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[28.255s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[28.279s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[28.279s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.279s]    60 | :Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[28.279s]       |                                                              [01;35m[K^~~~~~~~~~[m[K
+[28.279s] 
+[28.280s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[28.280s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[28.280s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[28.280s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[28.280s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[28.280s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[28.280s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[28.280s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[28.280s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[28.281s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[28.281s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[28.281s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[28.281s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[28.281s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[28.281s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.281s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[28.281s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[28.468s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[28.468s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[28.469s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[28.469s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[28.469s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[28.470s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[28.470s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[28.471s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[28.471s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[28.471s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[28.473s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[28.474s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[28.474s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[28.475s]       |                                      [01;35m[K^[m[K
+[28.476s]       |                                      [31m[K-[m[K
+[30.106s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[30.107s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[30.107s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[30.107s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.107s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.107s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.107s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.107s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.107s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.108s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.108s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.108s] /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[30.108s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[30.109s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[30.109s]    62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[30.110s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[30.110s] 
+[30.110s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[30.110s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[30.119s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[30.120s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[30.120s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[30.121s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[30.121s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.122s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.122s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.122s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.123s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.123s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.124s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.124s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.125s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[30.125s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[30.126s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[30.236s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[30.236s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[30.237s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[30.237s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.237s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.237s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.237s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.238s] /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[30.238s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[30.238s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[30.238s]    62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[30.238s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[30.239s] 
+[30.247s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[30.248s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[30.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[30.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[30.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[30.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[30.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.248s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.249s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.249s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.249s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.249s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.249s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[30.249s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[30.249s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[30.396s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[30.396s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[30.397s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[30.397s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.397s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.398s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.398s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.398s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.399s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.399s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.399s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.399s] /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[30.400s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[30.400s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[30.400s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[30.401s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[30.402s] 
+[30.402s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[30.408s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[30.408s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[30.409s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[30.409s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[30.409s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[30.409s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.410s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.410s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.410s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.410s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.410s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.410s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.410s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.411s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[30.412s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[30.412s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[30.412s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[30.413s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[30.413s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[30.413s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.413s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.414s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.414s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.414s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.414s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.435s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.436s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.436s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[30.437s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[30.437s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[30.438s] 
+[30.438s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[30.438s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[30.439s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[30.439s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[30.439s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[30.440s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[30.440s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.441s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.441s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.442s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.443s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.467s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.467s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.467s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.467s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[30.468s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[30.468s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[30.796s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[30.796s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[30.796s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[30.796s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.797s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.797s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.797s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.797s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.797s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.797s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.798s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.798s] /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[30.798s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[30.798s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[30.799s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[30.799s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[30.799s] 
+[30.800s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[30.800s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[30.800s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[30.800s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[30.801s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[30.801s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[30.801s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.801s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.802s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.802s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.803s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.803s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.803s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.803s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.804s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[30.805s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[30.806s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[30.870s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[30.870s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[30.871s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[30.871s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.871s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.871s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.871s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.871s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.871s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.872s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.872s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.872s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[30.872s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[30.872s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[30.872s] 
+[30.872s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[30.872s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[30.873s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[30.874s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[30.874s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[30.874s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[30.874s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[30.874s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[31.170s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[31.171s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[31.172s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[31.172s] /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[31.172s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[31.172s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[31.176s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[31.177s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[31.177s] 
+[31.177s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[31.178s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[31.178s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[31.178s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[31.179s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[31.179s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[31.180s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[31.180s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[31.180s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[31.181s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[31.181s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[31.181s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[31.182s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[31.182s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[31.182s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[31.191s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[31.191s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[31.192s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[31.192s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[31.192s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[31.195s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[31.195s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[31.195s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[31.196s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[31.196s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[31.196s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[31.196s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[31.197s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[31.197s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[31.197s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[31.197s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[31.198s] 
+[31.204s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[31.205s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[31.205s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[31.215s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[31.217s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[31.217s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[31.218s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[31.218s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[31.218s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[31.218s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[31.229s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[31.229s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[31.230s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[31.230s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[31.239s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[31.240s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[31.240s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[32.237s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[32.237s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[32.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[32.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.238s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.239s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.240s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.240s] /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[32.240s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[32.240s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.240s]    62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[32.241s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[32.241s] 
+[32.241s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[32.241s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[32.241s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[32.241s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[32.241s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[32.241s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[32.241s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.242s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.242s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.242s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.242s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.242s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.242s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.242s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.242s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.243s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[32.243s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[32.389s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[32.389s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[32.390s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[32.390s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.390s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.390s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.390s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.390s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.391s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.391s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.391s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.391s] /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[32.391s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[32.391s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.392s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[32.392s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[32.392s] 
+[32.396s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[32.397s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[32.397s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[32.404s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[32.405s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[32.405s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[32.405s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.406s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.406s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.406s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.415s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.416s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.416s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.416s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.416s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.417s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[32.417s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[32.417s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[32.417s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[32.417s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[32.417s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.418s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.418s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.418s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.418s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.418s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.418s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.419s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.420s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.420s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[32.421s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[32.421s] 
+[32.427s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[32.428s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[32.428s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[32.429s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[32.429s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[32.430s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[32.430s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.430s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.453s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.453s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.453s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.454s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.454s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.454s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.454s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.454s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[32.454s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[32.666s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[32.666s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[32.667s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[32.667s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.667s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.667s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.667s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.667s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.667s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.667s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.668s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.668s] /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[32.668s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[32.669s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.669s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[32.669s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[32.669s] 
+[32.669s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[32.669s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[32.670s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[32.670s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[32.670s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[32.670s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[32.670s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.670s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.670s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.671s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.671s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.671s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.671s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.671s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.671s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.689s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[32.690s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[32.925s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[32.926s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Converter.h:26[m[K,
+[32.926s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:33[m[K,
+[32.926s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.927s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.928s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.928s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.929s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.929s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.929s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.930s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.930s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.930s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[32.931s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[32.947s] 
+[32.947s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:363[m[K,
+[32.947s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[32.947s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[32.948s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[32.948s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/../Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[32.948s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:28[m[K,
+[32.948s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[32.949s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[32.949s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[32.949s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[32.950s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[32.951s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[32.951s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[32.951s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[32.951s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.954s]   162 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[32.955s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[33.358s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Frame.h:34[m[K,
+[33.358s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[33.358s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[33.358s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[33.358s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[33.358s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[33.358s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[33.358s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[33.359s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[33.359s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Settings.h:232:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[33.359s]   232 | }[01;35m[K;[m[K
+[33.359s]       |  [01;35m[K^[m[K
+[36.380s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Atlas.h:26[m[K,
+[36.380s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[36.381s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[36.381s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[36.381s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[36.381s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[36.382s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[36.382s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[36.382s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.382s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[36.382s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[36.383s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.383s]    83 | hAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[36.383s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[36.384s] 
+[36.384s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.384s]    83 | cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[36.385s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[36.385s] 
+[36.385s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.385s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[36.385s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[36.386s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.386s]    84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[36.386s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[36.386s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.386s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[36.386s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[36.386s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.386s]    85 |                               const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[36.393s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[36.394s] 
+[36.394s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.395s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[36.395s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[36.411s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Atlas.h:27[m[K,
+[36.412s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[36.412s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[36.413s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[36.413s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[36.413s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[36.414s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[36.414s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[36.414s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[36.415s]   102 |         const float [01;35m[Kprecision[m[K;
+[36.415s]       |                     [01;35m[K^~~~~~~~~[m[K
+[36.416s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[36.417s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[36.417s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[36.418s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Atlas.h:27[m[K,
+[36.418s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[36.418s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[36.419s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[36.419s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[36.419s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[36.419s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[36.419s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[36.419s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[36.420s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[36.420s] In file included from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Atlas.h:27[m[K,
+[36.420s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[36.420s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Viewer.h:23[m[K,
+[36.420s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/Tracking.h:26[m[K,
+[36.420s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/System.h:31[m[K,
+[36.420s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[36.420s]                  from [01m[K/home/hkim/development/tello_ros_ws/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[36.420s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[36.421s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[36.421s]   102 |         const float [01;35m[Kprecision[m[K;
+[36.421s]       |                     [01;35m[K^~~~~~~~~[m[K
+[36.421s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[36.421s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[36.421s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[36.422s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[36.422s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[36.422s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[36.422s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[36.423s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[36.438s]   102 |         const float [01;35m[Kprecision[m[K;
+[36.439s]       |                     [01;35m[K^~~~~~~~~[m[K
+[36.439s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[36.440s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[36.440s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[36.441s] [01m[K/home/hkim/development/tello_ros_ws/src/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[36.441s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[36.442s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[71.908s] [ 41%] [32m[1mLinking CXX executable mono[0m
+[75.480s] [ 50%] Built target mono
+[75.736s] [ 75%] Built target rgbd
+[75.909s] [100%] Built target stereo
+[75.951s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hkim/development/tello_ros_ws/build/orbslam3 -- -j4 -l4
+[76.241s] Invoking command in '/home/hkim/development/tello_ros_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/orbslam3
+[76.280s] -- Install configuration: ""
+[76.282s] -- Execute custom install script
+[76.285s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/lib/orbslam3/mono
+[76.286s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/lib/orbslam3/rgbd
+[76.287s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/lib/orbslam3/stereo
+[76.288s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+[76.289s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[76.290s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[76.291s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+[76.307s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+[76.307s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/environment/path.sh
+[76.308s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/environment/path.dsv
+[76.310s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/local_setup.bash
+[76.315s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/local_setup.sh
+[76.319s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/local_setup.zsh
+[76.324s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/local_setup.dsv
+[76.326s] -- Symlinking: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/package.dsv
+[76.384s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+[76.384s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+[76.385s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+[76.385s] -- Up-to-date symlink: /home/hkim/development/tello_ros_ws/install/orbslam3/share/orbslam3/package.xml
+[76.391s] Invoked command in '/home/hkim/development/tello_ros_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hkim/development/tello_ros_ws/build/orbslam3

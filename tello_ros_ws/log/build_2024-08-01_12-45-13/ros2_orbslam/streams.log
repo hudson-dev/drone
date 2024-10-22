@@ -1,0 +1,59 @@
+[0.226s] Invoking command in '/home/hkim/development/tello_ros_ws/build/ros2_orbslam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/ros2-ORB_SLAM2 -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/install/ros2_orbslam
+[0.802s] -- The C compiler identification is GNU 9.4.0
+[1.666s] -- The CXX compiler identification is GNU 9.4.0
+[1.783s] -- Check for working C compiler: /usr/bin/cc
+[2.411s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.431s] -- Detecting C compiler ABI info
+[3.375s] -- Detecting C compiler ABI info - done
+[3.554s] -- Detecting C compile features
+[3.557s] -- Detecting C compile features - done
+[3.573s] -- Check for working CXX compiler: /usr/bin/c++
+[4.146s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.149s] -- Detecting CXX compiler ABI info
+[4.657s] -- Detecting CXX compiler ABI info - done
+[4.758s] -- Detecting CXX compile features
+[4.763s] -- Detecting CXX compile features - done
+[4.781s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.010s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.011s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.101s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.813s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.465s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.754s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.296s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.553s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.573s] -- Looking for pthread.h
+[9.864s] -- Looking for pthread.h - found
+[9.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.127s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.127s] -- Looking for pthread_create in pthreads
+[10.325s] -- Looking for pthread_create in pthreads - not found
+[10.325s] -- Looking for pthread_create in pthread
+[10.585s] -- Looking for pthread_create in pthread - found
+[10.594s] -- Found Threads: TRUE  
+[11.209s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[11.634s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[11.747s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[11.780s] CMake Error at CMakeLists.txt:20 (find_package):
+[11.781s]   By not providing "FindPangolin.cmake" in CMAKE_MODULE_PATH this project has
+[11.781s]   asked CMake to find a package configuration file provided by "Pangolin",
+[11.781s]   but CMake did not find one.
+[11.782s] 
+[11.782s]   Could not find a package configuration file provided by "Pangolin" with any
+[11.783s]   of the following names:
+[11.783s] 
+[11.783s]     PangolinConfig.cmake
+[11.783s]     pangolin-config.cmake
+[11.783s] 
+[11.783s]   Add the installation prefix of "Pangolin" to CMAKE_PREFIX_PATH or set
+[11.784s]   "Pangolin_DIR" to a directory containing one of the above files.  If
+[11.784s]   "Pangolin" provides a separate development package or SDK, be sure it has
+[11.784s]   been installed.
+[11.785s] 
+[11.789s] 
+[11.790s] -- Configuring incomplete, errors occurred!
+[11.790s] See also "/home/hkim/development/tello_ros_ws/build/ros2_orbslam/CMakeFiles/CMakeOutput.log".
+[11.791s] See also "/home/hkim/development/tello_ros_ws/build/ros2_orbslam/CMakeFiles/CMakeError.log".
+[11.819s] Invoked command in '/home/hkim/development/tello_ros_ws/build/ros2_orbslam' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hkim/development/tello_ros_ws/src/ros2-ORB_SLAM2 -DCMAKE_INSTALL_PREFIX=/home/hkim/development/tello_ros_ws/install/ros2_orbslam

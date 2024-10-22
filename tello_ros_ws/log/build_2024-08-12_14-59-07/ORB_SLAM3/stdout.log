@@ -1,0 +1,53 @@
+[35m[1mScanning dependencies of target ORB_SLAM3[0m
+[  1%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/System.cc.o[0m
+[  2%] [32m[1mLinking CXX shared library /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/lib/libORB_SLAM3.so[0m
+[ 26%] Built target ORB_SLAM3
+[ 55%] Built target g2o
+[ 56%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Monocular/mono_tum_vi_old[0m
+[ 57%] Built target mono_tum_vi_old
+[ 58%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Stereo-Inertial/stereo_inertial_euroc_old[0m
+[ 58%] Built target stereo_inertial_euroc_old
+[ 59%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Monocular/mono_kitti_old[0m
+[ 60%] Built target mono_kitti_old
+[ 61%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Monocular/mono_tum_old[0m
+[ 62%] Built target mono_tum_old
+[ 63%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Stereo/stereo_euroc_old[0m
+[ 64%] Built target stereo_euroc_old
+[ 65%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Stereo/stereo_kitti_old[0m
+[ 66%] Built target stereo_kitti_old
+[ 67%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/RGB-D/rgbd_tum[0m
+[ 68%] Built target rgbd_tum
+[ 69%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Monocular/mono_euroc_old[0m
+[ 70%] Built target mono_euroc_old
+[ 71%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Stereo-Inertial/stereo_inertial_euroc[0m
+[ 72%] Built target stereo_inertial_euroc
+[ 73%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Monocular/mono_tum[0m
+[ 74%] Built target mono_tum
+[ 75%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Stereo/stereo_kitti[0m
+[ 76%] Built target stereo_kitti
+[ 77%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Stereo/stereo_euroc[0m
+[ 78%] Built target stereo_euroc
+[ 79%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Monocular/mono_kitti[0m
+[ 80%] Built target mono_kitti
+[ 81%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Stereo/stereo_tum_vi[0m
+[ 82%] Built target stereo_tum_vi
+[ 83%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Monocular/mono_euroc[0m
+[ 84%] Built target mono_euroc
+[ 84%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Monocular/mono_tum_vi[0m
+[ 85%] Built target mono_tum_vi
+[ 86%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Monocular-Inertial/mono_inertial_euroc[0m
+[ 87%] Built target mono_inertial_euroc
+[ 87%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Monocular-Inertial/mono_inertial_euroc_old[0m
+[ 88%] Built target mono_inertial_euroc_old
+[ 89%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Stereo/stereo_tum_vi_old[0m
+[ 90%] Built target stereo_tum_vi_old
+[ 91%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Monocular-Inertial/mono_inertial_tum_vi[0m
+[ 92%] Built target mono_inertial_tum_vi
+[ 93%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/RGB-D/rgbd_tum_old[0m
+[ 94%] Built target rgbd_tum_old
+[ 95%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples/Stereo-Inertial/stereo_inertial_tum_vi[0m
+[ 96%] Built target stereo_inertial_tum_vi
+[ 97%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Monocular-Inertial/mono_inertial_tum_vi_old[0m
+[ 98%] Built target mono_inertial_tum_vi_old
+[ 99%] [32m[1mLinking CXX executable /home/hkim/development/tello_ros_ws/src/ORB_SLAM3/Examples_old/Stereo-Inertial/stereo_inertial_tum_vi_old[0m
+[100%] Built target stereo_inertial_tum_vi_old

@@ -1,0 +1,5 @@
+[ 13%] Built target tello_joy_main
+[ 22%] Built target tello_emulator
+[ 59%] Built target tello_driver_main
+[ 90%] Built target tello_driver_node
+[100%] Built target tello_joy_node

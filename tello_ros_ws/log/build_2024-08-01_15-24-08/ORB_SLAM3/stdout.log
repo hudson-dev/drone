@@ -1,0 +1,9 @@
+[ 29%] Built target g2o
+[ 30%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/Frame.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/KeyFrame.cc.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/LocalMapping.cc.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/KeyFrameDatabase.cc.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/LoopClosing.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o[0m
